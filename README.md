@@ -5,3 +5,7 @@ Program publisher akan mengirim 5 data ke message broker dalam satu run. Hal ini
 Artinya kedua program sama-sama menggunakan parameter koneksi yang sama untuk menyambung ke AMQP message broker. Keduanya memiliki username, password, address, dan port yang sama. Kesamaan ini memastikan kedua program dapat berkomunikasi secara efektif dengan instance message broker yang sama.
 
 ![RabbitMQ](images/rabbitmq_init.png)
+Tampilan RabbitMQ ketika dijalankan pada localhost:15672/
+
+![Termimal](images/terminal1.png)
+Ini adalah ampilan terminal ketika publisher melakukan publish 5 event message dan subscriber menerimanya.
