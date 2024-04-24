@@ -9,3 +9,6 @@ Tampilan RabbitMQ ketika dijalankan pada localhost:15672/
 
 ![Termimal](images/terminal1.png)
 Ini adalah ampilan terminal ketika publisher melakukan publish 5 event message dan subscriber menerimanya.
+
+![Spike](images/spikes.png)
+Ini adalah tampilan dari spike yang muncul ketika cargo run dijalankan pada publisher. Perubahan grafik ini ditentukan dari frekuensi pengiriman data oleh publisher. Grafik menaik lalu menurun karena publisher mengirim data sekali lalu berhenti. Jika mengirim data terus, grafik akan terus menaik.
